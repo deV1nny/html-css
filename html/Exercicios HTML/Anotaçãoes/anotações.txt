@@ -1,0 +1,13 @@
+Anotações
+
+HTML - Conteudo,informação, textos, imagens.;
+CSS  - Designe, estilo, organização;
+JAVA - Funcionalidade, interação, modficação.
+
+
+
+
+
+
+
+

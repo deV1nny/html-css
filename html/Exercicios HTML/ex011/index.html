@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medias</title>
+</head>
+    <h1>Imagen dinamica</h1>
+    <p>Aumente e diminua a ajanela do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 800px)" srcset="imagens/paisagem-p.png" type="image/png">
+        
+        <source media="(max-width: 1200px)" srcset="imagens/paisagem-m.png" type="image/png">
+        <img src="imagens/paisagem-g.png" alt="grande">
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audios em HTML5</p>
+
+    <audio src="audio/JustBreathing.mp3" controls></audio>
+    <!-- MP3 WAV OGG-->
+
+    <!-- Outros exemplos para outros tipos de audio-->
+    <audio preload="metadata">
+        <source src="audio/JustBreathing.mp3" type="audio/mpeg">
+        <source src="audio/JustBreathing.ogg" type="audio/ogg">
+        <source src="audio/JustBreathing.wav" type="audio/wav">
+
+        <p>Seu navegador não consegue reproduzir o audio. ,<a href="audio/JustBreathing.mp3"> Click aqui para baixar</a>
+        </p>
+    </audio>
+
+<body>
+    
+</body>
+</html>

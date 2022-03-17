@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+}
+
+body {
+    font: 16px arial, verdana, serif;
+    width: 600px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: right;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+}

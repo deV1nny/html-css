@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: 'Arizona';
+    src: url(Arizona.ttf);
+    font-weight: normal;
+    font-style: normal;
+
+    /*Tipos de format()
+    - opentype (otf)
+    - truetype (ttf)
+    - embeddded-opentype
+    - truetype-aat (Apple Advanced Typography)
+    - svg*/
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'Arizona';
+    font-size: 3em;
+    font-weight: normal;
+}

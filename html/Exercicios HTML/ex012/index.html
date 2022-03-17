@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML</title>
+</head>
+
+<body>
+    <h1>Isnerindo videos hospedados localmente</h1>
+    <p>Este video está no meu próprio servidor.</p>
+
+    <video width="100%" height="100%" poster="img/thumbnail-1024x538.png" controls>
+        <source src="videos/mar.mp4" type="video/mp4">
+        <source src="videos/mar.mav" type="video/mav">
+        <source src="videos/mar.webm" type="video/ogg">
+        <source src="videos/mar.ogv" type="video/ogv">
+
+        <p>Seu navegador não tem compatibilidade com reprodutor de videos.<a href="videos/mar.mp4">Click aqui para
+                baixar o video.</a>
+        </p>
+    </video>
+
+    <h1>Inserindo videos do youtube</h1>
+    <iframe poster="img/thumbnail-1024x538.png"width="100%" height="100%" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+    </iframe>
+
+    <h1>Inserindo videos do vimeo</h1>
+    <div style="padding:56.25% 0 0 0;position:relative;">
+        <iframe src="https://player.vimeo.com/video/680668269?h=ce45053c2c& portrait=0"
+            style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+        </iframe>
+    </div>
+
+
+</body>
+
+</html>
